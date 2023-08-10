@@ -1,93 +1,93 @@
-/* Reset default styles for the navigation bar */
 @media only screen and (min-width: 1200px){body {
+  margin: 0 auto;
+  padding-left: 25vw;
+  padding-right: 25vw;
+  min-width: 650px;
+  padding-top: 10px;
+  background-color:#2A2A2A ;
+  font-family: 'inter' }}
+
+  @media only screen and (max-width: 1199px){
+    body {
     margin: 0 auto;
-    padding-left: 25vw;
-    padding-right: 25vw;
+    width: 90%;
+    padding-left: 5vw;
+    padding-right: 5vw;
     min-width: 650px;
+    max-width: 768px;
     padding-top: 10px;
     background-color:#2A2A2A ;
-    font-family: 'inter' }}
+    font-family: 'inter' }
+  }
 
-    @media only screen and (max-width: 1199px){
-      body {
-      margin: 0 auto;
-      padding-left: 5vw;
-      padding-right: 5vw;
-      min-width: 650px;
-      max-width: 768px;
-      padding-top: 10px;
-      background-color:#2A2A2A ;
-      font-family: 'inter' }
-    }
-  
-  /* Style the navigation bar */
-  nav {
-    background-color: transparent; /* Set the background to transparent */
-   }
+/* Style the navigation bar */
+nav {
+  background-color: transparent; /* Set the background to transparent */
+ }
+
+ @media only screen and (max-width: 600px) {
+body {padding-left: 5vw;
+  padding-right: 5vw;
+  min-width: 250px;
+  max-width: 90%;
+  background-color:#2A2A2A ;
+  font-family: 'inter';
+  overflow: scroll; }
+
+}
  
-   @media only screen and (max-width: 600px) {
-  body {padding-left: 5vw;
-    padding-right: 5vw;
-    min-width: 250px;
-    max-width: 90%;
-    background-color:#2A2A2A ;
-    font-family: 'inter';
-    overflow: scroll; }
-  
-  }
-   
-   @media only screen and (max-width: 600px) {
-    .bio{
-        max-width: 95%;
+ @media only screen and (max-width: 600px) {
+  .bio{
+      max-width: 95%;
 
-    }
+  }
 }
 
 @media only screen and (max-width: 600px){
-    .project1, .project2{
-        display: flex;
-     flex-direction: column-reverse;   
-     padding-bottom: 5rem;
-     padding-right: 1px;
-    }
+  .project1, .project2{
+      display: flex;
+   flex-direction: column-reverse;   
+   padding-bottom: 5rem;
+   padding-right: 1px;
+  }
 }
 
 @media only screen and (max-width: 600px){
-    #project1-image{
-    min-width: 100%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    }}
+  #project1-image{
+  min-width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  }}
 
 
-  nav ul {
-    list-style: none;
-    max-width: 70%;
-    padding: 10px;
-    display: flex;
-    overflow: hidden;
-    margin-top: auto;
-      
-  }
-  
-  nav li:first-child{
+nav ul {
+  list-style: none;
+  max-width: 70%;
+  padding: 10px;
+  display: flex;
+  overflow: hidden;
+  margin-top: auto;
+    
+}
+
+nav li:first-child{
 color: white;
- font-size: 17px;
- font-family: Inter;
- font-weight: 400;
- word-wrap: break-word
-  }
+font-size: 17px;
+font-family: Inter;
+font-weight: 400;
+word-wrap: break-word
+}
 
 
 p{
-    color: rgba(255, 255, 255, 0.70);
+  color: rgba(255, 255, 255, 0.70);
 font-size: 17px;
 font-family: Inter;
 font-weight: 400;
 line-height: 24px;
 word-wrap: break-word
 }
-  a{
+a{
 color:aliceblue;
 font-size: 15px;
 font-family: Inter;
@@ -96,164 +96,164 @@ text-decoration: underline;
 line-height: 21px;
 letter-spacing: 0.50px;
 word-wrap: break-word
-  }
+}
 
-  nav a {
-    color: white;
-    font-size: 17px;
-     font-family: Inter;
-     font-weight: 400;
-     line-height: 24px;
-     word-wrap: break-word;
-     padding-right: 30px;
-     text-decoration: none;
-  }
-  
-  nav a:hover {
+nav a {
+  color: white;
+  font-size: 17px;
+   font-family: Inter;
+   font-weight: 400;
+   line-height: 24px;
+   word-wrap: break-word;
+   padding-right: 30px;
+   text-decoration: none;
+}
 
-    background-color: #2b2b2b;
-    color: #fff; /* Change the text color on hover */
-  }
-  
-  main {
-    padding: 20px;
-  }
-  h1{
- color: white;
- font-size: 24px;
- font-family: Inter;
- font-weight: 500;
- line-height: 32px;
- word-wrap: break-word
-  }
+nav a:hover {
 
-  .hero{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-  }
-  #avatar{
-    border-radius: 100px;
-  }
+  background-color: #2b2b2b;
+  color: #fff; /* Change the text color on hover */
+}
 
-  .bio {
+main {
+  padding: 20px;
+}
+h1{
+color: white;
+font-size: 24px;
+font-family: Inter;
+font-weight: 500;
+line-height: 32px;
+word-wrap: break-word
+}
+
+.hero{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+#avatar{
+  border-radius: 100px;
+}
+
+.bio {
 color: rgba(255, 255, 255, 0.50);
 width: 35rem;
- font-size: 17px;
- font-family: Inter;
- font-weight: 400;
- line-height: 24px;
- word-wrap: break-word
-  }
+font-size: 17px;
+font-family: Inter;
+font-weight: 400;
+line-height: 24px;
+word-wrap: break-word
+}
 
-  #avatar{
-    width: 80px;
-    height:s
-  }
+#avatar{
+  width: 80px;
+  height:s
+}
 
-  @media only screen and (min-width: 1200px){.project1, .project2{
-    
-    display: inline-flex;
-    justify-content: space-between;
-    padding-top: 1rem;
-    padding-bottom: 1.5rem;
+@media only screen and (min-width: 1200px){.project1, .project2{
+  
+  display: inline-flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}}
+
+
+@media only screen and (max-width: 1199px){.project1, .project2{
+  
+  display: inline-flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}}
+
+@media only screen and (max-width: 600px){
+  .description{
+      font-size: 14px;
+      padding:0%;
   }}
 
+.article{
+  display: inline-flex;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+.details {
+ max-height: 10rem;
+  padding-right: 3rem;
+  color:#fff;
 
-  @media only screen and (max-width: 1199px){.project1, .project2{
-    
-    display: inline-flex;
-    justify-content: space-between;
-    padding-top: 1rem;
-    padding-bottom: 1.5rem;
-  }}
-
-  @media only screen and (max-width: 600px){
-    .description{
-        font-size: 14px;
-        padding:0%;
-    }}
-
-  .article{
-    display: inline-flex;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-  }
-  .details {
-   max-height: 10rem;
-    padding-right: 3rem;
-    color:#fff;
-
-  }
+}
 
 
 
 .project1-image{
-    width: auto;
+  width: auto;
 
 }
 
 #project1-image{
-    color:#2A2A2A;
-    background-color: #2A2A2A;
-    object-fit: contain;
-    max-width: 11.5rem;;
-  }
+  color:#2A2A2A;
+  background-color: #2A2A2A;
+  object-fit: contain;
+  max-width: 11.5rem;;
+}
 
-  .date{
-    color: rgba(255, 255, 255, 0.50);
-    margin-top:auto;
+.date{
+  color: rgba(255, 255, 255, 0.50);
+  margin-top:auto;
 font-size: 12px;
 font-family: Inter;
 font-weight: 400;
 line-height: 16px;
 letter-spacing: 0.40px;
 word-wrap: break-word
-  }
-h2{
-    color: white;
-    font-size: 17px;
-    font-family: Inter;
-    font-weight: 500;
-    line-height: 24px;
-    word-wrap: break-word
-    
 }
-  h3{
-    color: white;
+h2{
+  color: white;
+  font-size: 17px;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word
+  
+}
+h3{
+  color: white;
 font-size: 17px;
 font-family: Inter;
 font-weight: 500;
 line-height: 24px;
 word-wrap: break-word
 
-  }
+}
 
-  .contact-link{
-    width:fit-content;
-    align-items: center;
+.contact-link{
+  width:fit-content;
+  align-items: center;
 
 }
 
 .navtext a {   
-    color: rgba(255, 255, 255, 0.50);
-    font-size: 17px;
-     font-family: Inter;
-     font-weight: 400;
-     line-height: 24px;
-     word-wrap: break-word;
-     padding-right: 30px;
-      }
+  color: rgba(255, 255, 255, 0.50);
+  font-size: 17px;
+   font-family: Inter;
+   font-weight: 400;
+   line-height: 24px;
+   word-wrap: break-word;
+   padding-right: 30px;
+    }
 
-      .spacer{
-        width:auto;
-        height: 60px;
-        min-height: 40px;
-      }
+    .spacer{
+      width:auto;
+      height: 60px;
+      min-height: 40px;
+    }
 
 
 .divider {
-    width: 100%;
-    margin-top: auto;
-    height: 1px;
-    background-color: #313131;
-  }
+  width: 100%;
+  margin-top: auto;
+  height: 1px;
+  background-color: #313131;
+}
