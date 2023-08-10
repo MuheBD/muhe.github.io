@@ -8,14 +8,16 @@
     background-color:#2A2A2A ;
     font-family: 'inter' }}
 
-    @media only screen and (max-width: 768px){body {
+    @media only screen and (max-width: 1199px){
+      body {
       margin: 0 auto;
-      padding-left: 25vw;
-      padding-right: 25vw;
+      padding-left: 5vw;
+      padding-right: 5vw;
       min-width: 650px;
       padding-top: 10px;
       background-color:#2A2A2A ;
-      font-family: 'inter' }}
+      font-family: 'inter' }
+    }
   
   /* Style the navigation bar */
   nav {
@@ -148,7 +150,16 @@ width: 35rem;
   }
 
   @media only screen and (min-width: 1200px){.project1, .project2{
-    width:100%;
+    
+    display: inline-flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+  }}
+
+
+  @media only screen and (max-width: 1199px){.project1, .project2{
+    
     display: inline-flex;
     justify-content: space-between;
     padding-top: 1rem;
