@@ -4,7 +4,7 @@
   padding-right: 25vw;
   min-width: 650px;
   padding-top: 10px;
-  background-color:#2A2A2A ;
+  background-color:#0D1117 ;
   font-family: 'inter' }}
 
   @media only screen and (max-width: 1199px){
@@ -16,7 +16,7 @@
     min-width: 650px;
     max-width: 768px;
     padding-top: 10px;
-    background-color:#2A2A2A ;
+    background-color:#0D1117;
     font-family: 'inter' }
   }
   @media only screen and (max-width: 1199px) and (min-width: 601px)
@@ -38,7 +38,7 @@ body {padding-left: 5vw;
   padding-right: 5vw;
   min-width: 250px;
   max-width: 90%;
-  background-color:#2A2A2A ;
+  background-color:#0D1117 ;
   font-family: 'inter';
   overflow: scroll; }
 
